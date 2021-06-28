@@ -4,6 +4,7 @@
 
   <default revision="master" remote="github-https"/>
 
+  <project path="build" name="mattcurf/onevpl-build" revision="main"/>
   <project path="dispatcher" name="oneapi-src/oneVPL.git" revision="refs/tags/v2021.4.0"/>
   <project path="cpu/oneVPL-cpu" name="oneapi-src/oneVPL-cpu.git" revision="refs/tags/v2021.4.0"/>
   <project path="intel-gpu/libva" name="intel/libva.git" revision="refs/tags/2.12.0"/>
