@@ -5,8 +5,9 @@
   <default revision="master" remote="github-https"/>
 
   <project path="oneVPL" name="oneapi-src/oneVPL.git" revision="refs/tags/v2021.4.0"/>
-  <project path="oneVPL-cpu" name="oneapi-src/oneVPL-cpu.git" revision="refs/tags/v2021.4.0"/>
-  <project path="libva" name="intel/libva.git" revision="refs/tags/2.12.0"/>
-  <project path="media-driver" name="intel/media-driver.git" revision="refs/tags/intel-media-21.1.3"/>
-  <project path="oneVPL-intel-gpu" name="oneapi-src/oneVPL-intel-gpu.git" revision="main"/>
+  <project path="cpu/oneVPL-cpu" name="oneapi-src/oneVPL-cpu.git" revision="refs/tags/v2021.4.0"/>
+  <project path="intel-gpu/libva" name="intel/libva.git" revision="refs/tags/2.12.0"/>
+  <project path="intel-gpu/gmmlib" name="intel/gmmlib.git" revision="refs/tags/intel-gmmlib-21.1.3"/>
+  <project path="intel-gpu/media-driver" name="intel/media-driver.git" revision="refs/tags/intel-media-21.1.3"/>
+  <project path="intel-gpu/oneVPL-intel-gpu" name="oneapi-src/oneVPL-intel-gpu.git" revision="main"/>
 </manifest>
