@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github-https" fetch="https://github.com"/>
+
+  <default revision="master" remote="github-https"/>
+
+  <project path="oneVPL" name="oneapi-src/oneVPL.git" revision="refs/tags/v2021.4.0"/>
+  <project path="oneVPL-cpu" name="oneapi-src/oneVPL-cpu.git" revision="refs/tags/v2021.4.0"/>
+  <project path="oneVPL-intel-gpu" name="oneapi-src/oneVPL-intel-gpu.git" revision="main"/>
+</manifest>
